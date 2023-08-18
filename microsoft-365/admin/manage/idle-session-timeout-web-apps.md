@@ -71,7 +71,6 @@ When a user has been inactive in Microsoft 365 web apps for the time period you 
     - M365 Defender Portal
 
     - Microsoft Purview Compliance Portal
-    
 
 - Activity refers to any client-side user interaction happening in the context of the web app. For example, mouse clicks and keyboard presses.  
 
@@ -142,7 +141,7 @@ If you're working on a different web app with the same account, the activity in 
 
 ### I am active in Azure Portal, but I am logged out of other M365 Apps for inactivity.  Why am I logged out?
 
-Azure Portal supports a similar inactivity feature, but is supported by Azure Portal only. For more information, see [Azure Portal: Signing-Out + Notification](/azure/azure-portal/set-preferences#signing-out--notifications).
+Azure Portal supports a similar inactivity feature, but is supported by Azure Portal only. For more information, see [Azure Portal: Signing-Out + Notifications](/azure/azure-portal/set-preferences#signing-out--notifications).
 
 ### I want to make changes to the idle session timeout policy or delete it. How can I do that?
 
