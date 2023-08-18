@@ -72,7 +72,6 @@ When a user has been inactive in Microsoft 365 web apps for the time period you 
 
     - Microsoft Purview Compliance Portal
 
-
 - Activity refers to any client-side user interaction happening in the context of the web app. For example, mouse clicks and keyboard presses.  
 
 - Idle session timeout works on a per-browser session basis. A user’s activity on Microsoft Edge is treated differently than their activity in other browsers such as Google Chrome. Users will be signed out from all tabs corresponding to their account within that browser session.
