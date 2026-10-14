@@ -111,6 +111,12 @@ For idle session timeout to get triggered only on unmanaged devices, you'll need
 
 Idle session timeout isn't supported when third party cookies are disabled in the browser. Users won't see any sign-out prompts. We recommend keeping tracking prevention setting to [Balanced (Default)](/microsoft-edge/web-platform/tracking-prevention) for Microsoft Edge, and third-party cookies enabled in your other browsers. Microsoft 365 apps and services have stopped supporting Internet Explorer 11 since August 17, 2021.
 
+### I'm using a secondary account on a managed device. Why is idle session timeout still applied?
+
+Idle session timeout might still apply when you access Microsoft 365 web apps with a secondary account, even when the device is managed. The managed-device exemption requires the account accessing the web app to use single sign-on (SSO) in a supported browser session. If the secondary account isn't connected to Windows through SSO for that browser session, idle session timeout can apply.
+
+When using Microsoft Edge, create a separate browser profile for the secondary account and sign in to that profile with the secondary account. This allows the browser session to use the required SSO and managed-device information for that account. After the profile is configured, use that Edge profile when accessing Microsoft 365 web apps and other portals with the secondary account.
+
 ### How should I prepare if my organization is already using existing Outlook web app and SharePoint Online idle timeout policies?  
 
 If you're already using existing Outlook web app and SharePoint Online idle timeout policies, you can still turn on idle session timeout feature. When you turn on the idle timeout policy, it takes precedence over the existing Outlook web app and SharePoint Online policies. We're planning to deprecate the existing Outlook web app and SharePoint Online policies in the near future. To better prepare your organization, we recommend you turn on idle session timeout.
